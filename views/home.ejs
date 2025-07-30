@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/style/main.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌍 SDG Newsletter Subscription</h1>
+      <p>Stay informed about the <strong>17 Sustainable Development Goals</strong> set by the United Nations to transform our world by 2030.</p>
+    </header>
+
+    <section class="sdg-info">
+      <h2>Why Subscribe?</h2>
+      <ul>
+        <li>📚 Learn about SDG 4: Quality Education</li>
+        <li>🌱 Support SDG 13: Climate Action</li>
+        <li>🤝 Discover how you can contribute to SDG 17: Partnerships for the Goals</li>
+      </ul>
+    </section>
+
+    <section class="form-section">
+      <h2>Subscribe to our Newsletter</h2>
+      <form action="/subscribe" method="POST">
+        <input type="email" name="email" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+      <p class="note">We’ll send you regular updates, resources, and tips on making a global impact.</p>
+    </section>
+
+    <footer>
+      <p>Created by Adham | Supporting Global Awareness 🌐</p>
+    </footer>
+  </div>
+</body>
+</html>
